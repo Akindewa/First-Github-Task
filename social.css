@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.wrapper{
+    display: flex;
+    width: 80%;
+}
+
+.template-main-text{
+    background-color:hsl(0, 0%, 100%);
+     max-width: 100%;
+     padding: 1.2rem 3rem 0.3rem 4rem;
+}
+
+.viewers-num{
+    /* border: 1px solid red; */
+    width: 18rem;
+    padding: 0.9rem 0.6rem;
+    line-height: 1.8rem;
+    color: hsl(300, 43%, 22%) ;
+}
+
+.intro{
+    /* border: 1px solid red; */
+    width: 25rem;
+    line-height:1.4rem;
+    /* margin: 0.5rem; */
+    padding:0.9rem 0.6rem ;
+    color:hsl(303, 10%, 53%) ;
+}
+
+
+.rated-levels{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10vh;
+}
+
+/* .rated{
+   background-color: hsl(333, 80%, 67%) ;
+  /* display: block; */
+  /* padding: 0.9rem 0.6rem; */
+  /* min-width: 4rem; */
+}*/
+
+.buyers-remarks{
+    /* background: wheat; */
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+    gap: 5rem;
+    background:pink;
+    width: 80rem;
+
+}
+
+.smith-review{
+    background:hsl(300, 43%, 22%) ;
+    width: 19rem;
+    padding-top:1.2rem;
+    padding-left: 2rem;
+    padding-bottom: 0rem;
+    padding-right: 0.;
+    /* line-height: 1.4rem; */
+    border-radius: 0.6rem;
+    margin-bottom: 6rem;
+}
+
+/* .smith-review p { */
+    /* padding-left: 4rem; */
+    /* padding-bottom: 0.7rem; */
+    /* line-height: 0.5rem; */
+/* } */
+/*  */
+
+
+
+.irene-review{
+    background: hsl(300, 43%, 22%);
+    width: 20rem;
+    padding: 1.5rem 1.6rem;
+    line-height: 1.4rem;
+    border-radius: 0.5rem;
+    margin-bottom: 7rem;
+}
+.irene-review p {
+    padding-left: 4rem;
+    padding-bottom: 0.7rem;
+    line-height: 0.5rem;
+}
+
+
+
+.anne-review{
+    background: hsl(300, 43%, 22%);
+    width: 20rem;
+    padding: 1.5rem 1.6rem;
+    line-height: 1.4rem;
+    border-radius: 0.5rem;
+    margin-bottom: 7rem;
+}
+.anne-review p {
+    padding-left: 4rem;
+    padding-bottom: 0.7rem;
+    line-height: 0.5rem;
+}
+
+.anne-review img{
+
+}
+
+
+
+
+
